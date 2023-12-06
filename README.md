@@ -2,6 +2,7 @@
 Disable the Smart Nap features to fix battery drain issue in MacOS, and it's tested in Sonoma.
 
 ➜ pmset -g log | grep "Wake from"
+
 2023-12-05 17:30:29 +0800 Wake                  Wake from Standby [CDNVA] : due to EC.PowerButton/UserActivity Assertion Using AC (Charge:100%)           
 2023-12-06 08:31:41 +0800 Wake                  Wake from Standby [CDNVA] : due to EC.ACDetach/UserActivity Assertion Using AC (Charge:92%) 
 
