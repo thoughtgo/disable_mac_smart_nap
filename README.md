@@ -20,4 +20,5 @@ Remember to reboot after apply scripts.
 
 # Troubleshooting tools.
 pmset -g log | tail -n 500
+
 pmset -g log | grep "Wake from"
