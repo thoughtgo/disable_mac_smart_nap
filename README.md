@@ -15,7 +15,8 @@ The script is inspired by https://forums.macrumors.com/threads/sleep-issues-in-s
 
 # Usage
 sh disable_mac_smart_nap.sh
-reboot
+
+Remember to reboot after apply scripts.
 
 # Troubleshooting tools.
 pmset -g log | tail -n 500
